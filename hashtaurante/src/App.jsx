@@ -8,7 +8,7 @@ export function App() {
       <img src={Hashtaurante} alt="Logo da Hashtaurante" className="capa" />
       <Navegacao />
       <div className="menu">
-       {pratosPrincipais.map(item => <ItemCardapio nome={item.name} descricao={item.descricao} preco={item.preco} imagem={item.imagem}/>)}
+       {pratosPrincipais.map(item => <ItemCardapio nome={item.nome} descricao={item.descricao} preco={item.preco} imagem={item.imagem}/>)}
       </div>
     </>
 }
